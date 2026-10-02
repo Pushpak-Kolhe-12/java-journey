@@ -8,6 +8,6 @@ public class CircleAreaandPerimeter {
         double perimeter = 2 * Math.PI * radius;
         System.out.println("The area of the circle is: " + area);
         System.out.println("The perimeter of the circle is: " + perimeter);
-        scanner.close();;// Close the scanner to prevent resource leak
+        scanner.close();// Close the scanner to prevent resource leak
     }
 }
