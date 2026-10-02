@@ -9,6 +9,6 @@ public class MultiplicationTable {
             int product = num * i;
             System.out.println(num + " x " + i + " = " + product);
         }
-        scanner = null;// Close the scanner to prevent resource leak
+        scanner.close();// Close the scanner to prevent resource leak
     }
 }
